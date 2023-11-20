@@ -14,9 +14,7 @@ class MainActivity:ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val list_view:ListView=findViewById(R.id.list_view)
-        val l:TextView=findViewById(R.id.list2)
-        l.setText("fkfhdk")
-      val myadapter:ArrayAdapter<String> = ArrayAdapter(this,android.R.layout.simple_list_item_1,Utilis.languagesArray)
+      val myadapter:ArrayAdapter<String> = ArrayAdapter(this,R.layout.activity_web,Utilis.languagesArray)
       list_view.adapter=myadapter
        list_view.onItemClickListener=AdapterView.OnItemClickListener{adapterView,view,position, id ->
            val selectedItem=adapterView.getItemAtPosition(position) as String

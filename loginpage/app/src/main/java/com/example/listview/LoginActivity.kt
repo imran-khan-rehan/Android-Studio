@@ -25,8 +25,9 @@ class LoginActivity:ComponentActivity() {
 //            Log.d("LoginActivity", "Username: $username, Password: $password")
 
             var intent=Intent(this,HomeActivity::class.java)
-            intent.putExtra(usernameText,username)
-            intent.putExtra(passwordText,password)
+//            intent.putExtra(usernameText,username)
+           intent.putExtra(passwordText,password)
+            usernameText=username;
             intent.putExtra(ageText,"here is age")
             intent.putExtra(cgpaText,"here is cgpa 1.8")
             startActivity(intent)

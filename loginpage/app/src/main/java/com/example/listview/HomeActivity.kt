@@ -9,12 +9,14 @@ class HomeActivity:ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-        val intent:Intent=intent
-        val uname=intent.getStringExtra(LoginActivity.usernameText)
+        //val intent:Intent=intent
+
+       // val uname=intent.getStringExtra(LoginActivity.usernameText)
+        val uname=LoginActivity.usernameText;
         val pswd=intent.getStringExtra(LoginActivity.passwordText)
         val age=intent.getStringExtra(LoginActivity.ageText)
         val cgpa=intent.getStringExtra(LoginActivity.cgpaText)
-val outputText=uname+"\n"+pswd+"\n"+age+"\n"+cgpa
+        val outputText=uname+"\n"+pswd+"\n"+age+"\n"+cgpa
         val outputView:TextView=findViewById<TextView>(R.id.output_tv)
         outputView.setText(outputText)
     }
