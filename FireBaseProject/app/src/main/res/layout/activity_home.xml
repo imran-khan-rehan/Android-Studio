@@ -1,0 +1,45 @@
+<!-- res/layout/activity_home.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_marginTop="16dp"
+        android:hint="Roll No" />
+
+    <EditText
+        android:id="@+id/etSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRollNo"
+        android:layout_marginTop="16dp"
+        android:hint="Semester" />
+
+    <EditText
+        android:id="@+id/etCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSemester"
+        android:layout_marginTop="16dp"
+        android:hint="Course" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCourse"
+        android:layout_marginTop="16dp"
+        android:text="Submit" />
+</RelativeLayout>

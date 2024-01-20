@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1075095172012",
+    "firebase_url": "https://carbide-ratio-399012-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "carbide-ratio-399012",
+    "storage_bucket": "carbide-ratio-399012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075095172012:android:c44624cae7d276db62c009",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpQvEDOZo-KSG4CMlmvz3-2EyxYv-E9zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
